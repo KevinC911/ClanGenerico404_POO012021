@@ -15,10 +15,10 @@ namespace Lab01
             Console.WriteLine("Enter a value for b");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Adding {a} + {b} equals to {AddNumbers(a,b)}");
+            Console.WriteLine($"Subtracting {a} + {b} equals to {SubtractNumbers(a,b)}");
         }
 
-        public static int AddNumbers(int a, int b)
+        public static int SubtractNumbers(int a, int b)
         {
             return a-b;
         }
